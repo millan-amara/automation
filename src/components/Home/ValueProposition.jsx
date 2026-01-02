@@ -116,7 +116,7 @@ const ValueProposition = () => {
             Not sure which solution fits your needs?
           </p>
           <a 
-            href="https://calendly.com" 
+            href="https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#0d9488] to-[#0f766e] text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-300"

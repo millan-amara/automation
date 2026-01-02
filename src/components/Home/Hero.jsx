@@ -1,6 +1,7 @@
 // src/components/Home/Hero.jsx
-import { ArrowRight, Play } from 'lucide-react'
+import { ArrowRight, Link, Play } from 'lucide-react'
 import Button from '../UI/Button'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -35,18 +36,19 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
             <button 
               size="" 
-              onClick={() => window.open('https://calendly.com', '_blank')}
+              onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}
               className="group bg-[#0d9488] hover:bg-[#0f766e] text-white shadow-lg hover:shadow-xl px-4 rounded-md flex justify-center items-center py-3"
             >
               Get Free Workflow Audit
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </button>
-            <button 
+            <Link 
+              to="/case-studies" 
               className="bg-transparent hover:bg-[#f0fdfa] text-[#0d9488] border-2 border-[#0d9488] flex justify-center items-center px-4 rounded-md py-3"
             >
               <Play className="mr-2" size={20} />
               See Case Studies
-            </button>
+            </Link>
           </div>
 
           {/* Trust Indicators */}

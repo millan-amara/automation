@@ -64,7 +64,7 @@ const AboutContactPage = () => {
             </p>
             <Button 
               size="lg" 
-              onClick={() => window.open('https://calendly.com', '_blank')}
+              onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}
               className="bg-white text-[#1e3a8a] hover:bg-gray-100"
             >
               Book a Call
@@ -340,7 +340,7 @@ const AboutContactPage = () => {
                 <p className="text-gray-500 text-sm mt-6 text-center">
                   Or book directly on our calendar:{" "}
                   <a 
-                    href="https://calendly.com" 
+                    href="https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services" 
                     className="text-[#0d9488] font-semibold hover:underline"
                   >
                     Schedule a call
@@ -376,7 +376,7 @@ const AboutContactPage = () => {
 
             <div className="text-center mt-12">
               <Button 
-                onClick={() => window.open('https://calendly.com', '_blank')}
+                onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}
                 size="lg"
                 className="bg-gradient-to-r from-[#0d9488] to-[#1e3a8a]"
               >

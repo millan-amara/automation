@@ -46,7 +46,7 @@ export default function Services() {
               <div className="text-5xl font-bold mb-2">KSh 25,000</div>
               <p className="text-orange-100 mb-6">One-time investment</p>
               <a 
-                href="https://calendly.com" 
+                href="https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-8 py-4 bg-white text-orange-600 font-semibold rounded-lg hover:bg-slate-100 transition-all shadow-lg"
@@ -108,7 +108,8 @@ export default function Services() {
                 <p className="text-sm text-slate-700">Businesses losing leads in WhatsApp/email chaos</p>
               </div>
               <a 
-                href="https://calendly.com" 
+                href="https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services" 
+                
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-all"
@@ -169,7 +170,7 @@ export default function Services() {
                 <p className="text-sm text-slate-700">Teams needing consistent, automated follow-ups</p>
               </div>
               <a 
-                href="https://calendly.com" 
+                href="https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-center px-6 py-3 bg-teal-600 text-white font-semibold rounded-lg hover:bg-teal-700 transition-all"
@@ -233,7 +234,7 @@ export default function Services() {
                 <p className="text-sm text-slate-700">Scaling businesses drowning in process chaos</p>
               </div>
               <a 
-                href="https://calendly.com" 
+                href="https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-center px-6 py-3 bg-slate-800 text-white font-semibold rounded-lg hover:bg-slate-900 transition-all"
@@ -382,7 +383,7 @@ export default function Services() {
             Book a free audit to see exactly where automation can help your business
           </p>
           <a 
-            href="https://calendly.com" 
+            href="https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services" 
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-8 py-4 bg-white text-blue-900 font-semibold rounded-lg hover:bg-slate-100 transition-all shadow-lg hover:shadow-xl hover:scale-105"

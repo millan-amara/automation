@@ -147,7 +147,7 @@ const PricingCards = () => {
                   fullWidth
                   size="lg"
                   className={`${tier.popular ? 'bg-gradient-to-r from-[#ea580c] to-orange-500 hover:from-[#c2410c] hover:to-orange-600' : ''}`}
-                  onClick={() => window.open('https://calendly.com', '_blank')}
+                  onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}
                 >
                   {tier.cta}
                 </Button>
@@ -201,7 +201,7 @@ const PricingCards = () => {
                 <Button 
                   fullWidth
                   variant="outline"
-                  onClick={() => window.open('https://calendly.com', '_blank')}
+                  onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}
                   className="text-[#0d9488] border-[#0d9488] hover:bg-[#f0fdfa]"
                 >
                   Add to Package
@@ -257,7 +257,7 @@ const PricingCards = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               size="lg"
-              onClick={() => window.open('https://calendly.com', '_blank')}
+              onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}
               className="bg-gradient-to-r from-[#0d9488] to-[#1e3a8a]"
             >
               Book Custom Consultation

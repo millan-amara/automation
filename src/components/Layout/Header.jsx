@@ -41,7 +41,7 @@ const Header = () => {
                 {item.label}
               </a>
             ))}
-            <Button onClick={() => window.open('https://calendly.com', '_blank')}>
+            <Button onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}>
               Free Audit
             </Button>
           </nav>
@@ -69,7 +69,7 @@ const Header = () => {
                   {item.label}
                 </a>
               ))}
-              <Button fullWidth onClick={() => window.open('https://calendly.com', '_blank')}>
+              <Button fullWidth onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}>
                 Free Workflow Audit
               </Button>
             </div>

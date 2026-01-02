@@ -24,7 +24,7 @@ const Footer = () => {
               and scale efficiently through smart workflow automation.
             </p>
             <button variant="outline" className="bg-transparent hover:bg-[#f0fdfa] text-[#0d9488] border-2 border-[#0d9488] flex justify-center items-center px-4 rounded-md py-3"
-              onClick={() => window.open('https://calendly.com', '_blank')}
+              onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}
             >
               Book Free Consultation
             </button>

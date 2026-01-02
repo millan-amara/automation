@@ -262,7 +262,7 @@ const ROICalculator = () => {
 
         <Button 
           size="lg"
-          onClick={() => window.open('https://calendly.com', '_blank')}
+          onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}
           className="bg-gradient-to-r from-[#0d9488] to-[#1e3a8a] w-full md:w-auto"
         >
           Get Personalized ROI Analysis

@@ -87,7 +87,7 @@ const HowItWorksPage = () => {
             </p>
             <div className="flex items-center space-x-4">
               <button 
-                onClick={() => window.open('https://calendly.com', '_blank')}
+                onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}
                 className="bg-[#0d9488] hover:bg-[#0f766e] text-white shadow-lg hover:shadow-xl px-4 rounded-md flex justify-center items-center py-3"
               >
                 Start Your Journey
@@ -259,7 +259,7 @@ const HowItWorksPage = () => {
               Don't see your favorite tool? We probably integrate with it! Most modern SaaS platforms work with our automation approach.
             </p>
             <button 
-              onClick={() => window.open('https://calendly.com', '_blank')}
+              onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}
               className="bg-gradient-to-r from-[#0d9488] to-[#1e3a8a] hover:bg-[#0f766e] text-white shadow-lg hover:shadow-xl px-4 rounded-md flex justify-center items-center py-3"
             >
               Discuss Your Tool Stack
