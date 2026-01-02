@@ -1,5 +1,5 @@
 // src/components/Home/Hero.jsx
-import { ArrowRight, Link, Play } from 'lucide-react'
+import { ArrowRight, Play } from 'lucide-react'
 import Button from '../UI/Button'
 import { Link } from 'react-router-dom'
 
