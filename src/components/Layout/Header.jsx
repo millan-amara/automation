@@ -21,7 +21,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to='/' className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-[#0d9488] to-[#1e3a8a] rounded-lg flex items-center justify-center">
+            <div className="w-10 h-10 bg-linear-to-br from-[#0d9488] to-[#1e3a8a] rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-xl">K</span>
             </div>
             <div>

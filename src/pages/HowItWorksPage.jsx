@@ -1,6 +1,7 @@
 // src/pages/HowItWorksPage.jsx
 import { CheckCircle, Calendar, Settings, Rocket, Zap, Users, Shield, RefreshCw } from 'lucide-react'
 import Button from '../components/UI/Button'
+import { Link } from 'react-router-dom'
 
 const HowItWorksPage = () => {
   const steps = [

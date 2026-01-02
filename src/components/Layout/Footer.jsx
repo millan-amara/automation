@@ -1,6 +1,7 @@
 import { Phone, Mail, MapPin } from 'lucide-react'
 import Button from '../UI/Button'
 
+
 const Footer = () => {
   const currentYear = new Date().getFullYear()
 
