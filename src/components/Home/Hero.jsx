@@ -53,7 +53,7 @@ const Hero = () => {
           <div className="flex flex-wrap items-center gap-8 text-gray-300">
             <div className="flex items-center space-x-2">
               <div className="w-2 h-2 bg-[#2dd4bf] rounded-full animate-pulse"></div>
-              <span>Trusted by 25+ Kenyan businesses</span>
+              <span>Trusted by 75+ businesses</span>
             </div>
             <div className="flex items-center space-x-2">
               <div className="w-2 h-2 bg-[#2dd4bf] rounded-full animate-pulse"></div>

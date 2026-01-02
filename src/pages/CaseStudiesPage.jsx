@@ -55,7 +55,7 @@ const CaseStudiesPage = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Real Results from Kenyan Businesses
+              Real Results from Local Businesses
             </h1>
             <p className="text-xl text-gray-200 mb-8">
               See how we've helped businesses like yours eliminate manual chaos and drive measurable growth.

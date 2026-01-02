@@ -20,7 +20,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-gray-300 mb-6">
-              We help Kenyan businesses eliminate manual work, never miss a lead, 
+              We help businesses eliminate manual work, never miss a lead, 
               and scale efficiently through smart workflow automation.
             </p>
             <button variant="outline" className="bg-transparent hover:bg-[#f0fdfa] text-[#0d9488] border-2 border-[#0d9488] flex justify-center items-center px-4 rounded-md py-3"
@@ -63,7 +63,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
           <p>© {currentYear} Klick n Shoot. All rights reserved.</p>
-          <p className="text-sm mt-2">Built for Kenyan business realities</p>
+          <p className="text-sm mt-2">Built for business realities</p>
         </div>
       </div>
     </footer>

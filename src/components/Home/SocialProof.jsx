@@ -24,7 +24,7 @@ const SocialProof = () => {
   ]
 
   const clients = [
-    { name: "Safari Excellence Tours", industry: "Tour Operator" },
+    { name: "Filao Adventures", industry: "Tour Operator" },
     { name: "Kenya Ventures Ltd", industry: "Real Estate" },
     { name: "Urban Eats Nairobi", industry: "Restaurant Chain" },
     { name: "Tech Solutions Africa", industry: "IT Services" },

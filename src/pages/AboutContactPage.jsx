@@ -7,14 +7,14 @@ const AboutContactPage = () => {
     {
       name: "Alex Kamau",
       role: "Founder & Automation Lead",
-      bio: "10+ years in business process optimization. Specializes in helping Kenyan SMEs leverage technology for growth.",
+      bio: "10+ years in business process optimization. Specializes in helping SMEs leverage technology for growth.",
       expertise: ["Workflow Design", "CRM Strategy", "Team Training"],
       imageColor: "from-[#0d9488] to-teal-600"
     },
     {
       name: "Sarah Mwangi",
       role: "Operations Specialist",
-      bio: "Former tour operations manager who understands the unique challenges of Kenyan service businesses.",
+      bio: "Former tour operations manager who understands the unique challenges of service businesses.",
       expertise: ["Tour Operations", "Client Onboarding", "Process Mapping"],
       imageColor: "from-[#1e3a8a] to-blue-600"
     },
@@ -42,7 +42,7 @@ const AboutContactPage = () => {
     },
     {
       question: "What industries do you specialize in?",
-      answer: "While we work with all service businesses, we have deep expertise in tour/travel, real estate, professional services, and hospitality in the Kenyan market."
+      answer: "While we work with all service businesses, we have deep expertise in tour/travel, real estate, professional services, and hospitality in the global market."
     },
     {
       question: "Do you provide training for our team?",
@@ -57,10 +57,10 @@ const AboutContactPage = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Built for Kenyan Business Realities
+              Built for Global Business Realities
             </h1>
             <p className="text-xl text-gray-200 mb-8">
-              We speak your language—literally. We understand M-Pesa flows, WhatsApp commerce, and the unique challenges of growing a business in Kenya.
+              We speak your language—literally. We understand M-Pesa flows, WhatsApp commerce, and the unique challenges of growing a business.
             </p>
             <Button 
               size="lg" 
@@ -117,7 +117,7 @@ const AboutContactPage = () => {
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">Local Understanding</h3>
                     <p className="text-gray-600">
-                      We build solutions that work within Kenya's unique business ecosystem, infrastructure, and cultural context.
+                      We build solutions that work within every unique business ecosystem, infrastructure, and cultural context.
                     </p>
                   </div>
                 </div>
@@ -159,7 +159,7 @@ const AboutContactPage = () => {
                     <span className="font-bold">✓</span>
                   </div>
                   <div>
-                    <div className="font-semibold text-gray-900">Kenyan Context</div>
+                    <div className="font-semibold text-gray-900">Local Context</div>
                     <div className="text-sm text-gray-600">Solutions that work for local challenges</div>
                   </div>
                 </div>

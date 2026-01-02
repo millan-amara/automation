@@ -114,7 +114,7 @@ const HowItWorksPage = () => {
               From Chaos to Flow in 4 Weeks
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              We've refined our process working with 25+ Kenyan businesses to ensure maximum results with minimal disruption.
+              We've refined our process working with 75+ businesses to ensure maximum results with minimal disruption.
             </p>
           </div>
 
