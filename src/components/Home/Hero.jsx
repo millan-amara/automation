@@ -34,14 +34,15 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
-            <button 
-              size="" 
-              onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}
+            <a 
+              href='https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services'
+              target='_blank'
+              rel='noopener noreferrer'
               className="group bg-[#0d9488] hover:bg-[#0f766e] text-white shadow-lg hover:shadow-xl px-4 rounded-md flex justify-center items-center py-3"
             >
               Get Free Workflow Audit
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
-            </button>
+            </a>
             <Link 
               to="/case-studies" 
               className="bg-transparent hover:bg-[#f0fdfa] text-[#0d9488] border-2 border-[#0d9488] flex justify-center items-center px-4 rounded-md py-3"

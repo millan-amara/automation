@@ -86,17 +86,19 @@ const HowItWorksPage = () => {
               From discovery to optimization, we guide you through every step of transforming your operations.
             </p>
             <div className="flex items-center space-x-4">
-              <button 
-                onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}
+              <a 
+                href='https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services'
+                target='_blank'
+                rel='noopener noreferrer'
                 className="bg-[#0d9488] hover:bg-[#0f766e] text-white shadow-lg hover:shadow-xl px-4 rounded-md flex justify-center items-center py-3"
               >
                 Start Your Journey
-              </button>
-              <button 
+              </a>
+              <Link to="/how-it-works" 
                 className="bg-transparent hover:bg-[#f0fdfa] text-[#0d9488] border-2 border-[#0d9488] flex justify-center items-center px-4 rounded-md py-3"
               >
                 View Our Toolstack
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -258,12 +260,14 @@ const HowItWorksPage = () => {
             <p className="text-gray-600 mb-8">
               Don't see your favorite tool? We probably integrate with it! Most modern SaaS platforms work with our automation approach.
             </p>
-            <button 
-              onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}
-              className="bg-gradient-to-r from-[#0d9488] to-[#1e3a8a] hover:bg-[#0f766e] text-white shadow-lg hover:shadow-xl px-4 rounded-md flex justify-center items-center py-3"
+            <a 
+              href='https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services'
+              target='_blank'
+              rel='noopener noreferrer'
+              className="bg-linear-to-r from-[#0d9488] to-[#1e3a8a] hover:bg-[#0f766e] text-white shadow-lg hover:shadow-xl px-4 rounded-md flex justify-center items-center py-3"
             >
               Discuss Your Tool Stack
-            </button>
+            </a>
           </div>
         </div>
       </section>

@@ -184,13 +184,13 @@ const ServiceTiers = () => {
                   </div>
                   
                   <div className="mt-8">
-                    <Button 
+                    <button 
                       fullWidth
                       className={`${service.popular ? 'bg-[#ea580c] hover:bg-[#c2410c]' : ''}`}
                       onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}
                     >
                       {service.cta}
-                    </Button>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -220,12 +220,12 @@ const ServiceTiers = () => {
                       <div className="font-bold text-gray-900 text-lg">KSh 25,000</div>
                       <div className="text-gray-500 text-sm">One-time fee • Deductible from implementation</div>
                     </div>
-                    <Button 
+                    <button 
                       onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}
                       className="bg-gradient-to-r from-[#0d9488] to-[#1e3a8a]"
                     >
                       Book Your Audit
-                    </Button>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -279,14 +279,14 @@ const ServiceTiers = () => {
                     ))}
                   </ul>
                   
-                  <Button 
+                  <button 
                     fullWidth
                     size="lg"
                     className={`${plan.popular ? 'bg-gradient-to-r from-[#ea580c] to-orange-500 hover:from-[#c2410c] hover:to-orange-600' : ''}`}
                     onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}
                   >
                     {plan.cta}
-                  </Button>
+                  </button>
                 </div>
               </div>
             ))}
@@ -358,13 +358,13 @@ const ServiceTiers = () => {
             <p className="text-gray-600 mb-6">
               Still unsure which package is right for you?
             </p>
-            <Button 
+            <button 
               onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}
               size="lg"
               className="bg-gradient-to-r from-[#0d9488] to-[#1e3a8a]"
             >
               Book Free Consultation
-            </Button>
+            </button>
           </div>
         </div>
       </section>

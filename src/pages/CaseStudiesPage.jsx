@@ -60,14 +60,15 @@ const CaseStudiesPage = () => {
             <p className="text-xl text-gray-200 mb-8">
               See how we've helped businesses like yours eliminate manual chaos and drive measurable growth.
             </p>
-            <Button 
-              size="lg" 
-              onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}
+            <a 
+              href='https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services'
+              target='_blank'
+              rel='noopener noreferrer'
               className="group bg-[#0d9488] hover:bg-[#0f766e] text-white shadow-lg hover:shadow-xl px-4 rounded-md flex justify-center items-center py-3"
             >
               Get Similar Results
               <ArrowRight className="ml-2" />
-            </Button>
+            </a>
           </div>
         </div>
       </section>
@@ -393,13 +394,15 @@ const ROICalculator = () => {
       </div>
 
       <div className="mt-8 text-center">
-        <button 
-          onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}
+        <a 
+          href='https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services'
+          target='_blank'
+          rel='noopener noreferrer'
           className="bg-linear-to-r from-[#0d9488] to-[#1e3a8a] text-white shadow-lg hover:shadow-xl px-4 rounded-md flex justify-center items-center py-3"
         >
           Get Detailed ROI Analysis
           <ArrowRight className="ml-2" />
-        </button>
+        </a>
       </div>
     </div>
   )

@@ -41,9 +41,9 @@ const Header = () => {
                 {item.label}
               </a>
             ))}
-            <Button onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}>
+            <a href="https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services" target="_blank" rel="noopener noreferrer">
               Free Audit
-            </Button>
+            </a>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -69,9 +69,9 @@ const Header = () => {
                   {item.label}
                 </a>
               ))}
-              <Button fullWidth onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}>
+              <a href="https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services" target="_blank" rel="noopener noreferrer">
                 Free Workflow Audit
-              </Button>
+              </a>
             </div>
           </div>
         )}

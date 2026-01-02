@@ -62,13 +62,14 @@ const AboutContactPage = () => {
             <p className="text-xl text-gray-200 mb-8">
               We speak your language—literally. We understand M-Pesa flows, WhatsApp commerce, and the unique challenges of growing a business.
             </p>
-            <Button 
-              size="lg" 
-              onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}
+            <a
+              href='https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services'
+              target='_blank'
+              rel='noopener noreferrer'
               className="bg-white text-[#1e3a8a] hover:bg-gray-100"
             >
               Book a Call
-            </Button>
+            </a>
           </div>
         </div>
       </section>
@@ -329,12 +330,12 @@ const AboutContactPage = () => {
                     />
                   </div>
 
-                  <Button 
+                  <button 
                     type="submit"
                     className="w-full bg-gradient-to-r from-[#0d9488] to-[#1e3a8a]"
                   >
                     Send Message
-                  </Button>
+                  </button>
                 </form>
 
                 <p className="text-gray-500 text-sm mt-6 text-center">
@@ -375,13 +376,14 @@ const AboutContactPage = () => {
             </div>
 
             <div className="text-center mt-12">
-              <Button 
-                onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}
-                size="lg"
+              <a 
+                href='https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services'
+                target='_blank'
+                rel='noopener noreferrer'
                 className="bg-gradient-to-r from-[#0d9488] to-[#1e3a8a]"
               >
                 Book Free Consultation
-              </Button>
+              </a>
             </div>
           </div>
         </div>

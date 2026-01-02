@@ -232,14 +232,15 @@ const CaseStudyFeatured = () => {
                       </div>
                     </div>
 
-                    <Button 
-                      fullWidth
-                      onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}
+                    <a 
+                      href='https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services'
+                      target='_blank'
+                      rel='noopener noreferrer'
                       className="bg-gradient-to-r from-[#0d9488] to-[#1e3a8a] mt-6"
                     >
                       Get Similar Results
                       <ChevronRight className="ml-2" />
-                    </Button>
+                    </a>
                   </div>
                 </div>
               </div>

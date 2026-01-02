@@ -108,8 +108,7 @@ export default function Services() {
                 <p className="text-sm text-slate-700">Businesses losing leads in WhatsApp/email chaos</p>
               </div>
               <a 
-                href="https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services" 
-                
+                href="https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-all"

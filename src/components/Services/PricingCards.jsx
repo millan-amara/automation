@@ -255,21 +255,22 @@ const PricingCards = () => {
             we can create a custom automation solution tailored specifically for you.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
-              size="lg"
-              onClick={() => window.open('https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services', '_blank')}
+            <a 
+              href="https://wa.me/254700487751?text=Hi%20I%20am%20interested%20in%20your%20automation%20services"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-gradient-to-r from-[#0d9488] to-[#1e3a8a]"
             >
               Book Custom Consultation
-            </Button>
-            <Button 
+            </a>
+            <button 
               variant="outline"
               size="lg"
               onClick={() => window.location.href = '/case-studies'}
               className="border-[#0d9488] text-[#0d9488] hover:bg-[#f0fdfa]"
             >
               See Case Studies
-            </Button>
+            </button>
           </div>
         </div>
       </div>
