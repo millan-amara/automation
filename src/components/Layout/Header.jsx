@@ -19,7 +19,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
+          <Link to='/' className="flex items-center space-x-2">
             <div className="w-10 h-10 bg-gradient-to-br from-[#0d9488] to-[#1e3a8a] rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-xl">K</span>
             </div>
@@ -27,7 +27,7 @@ const Header = () => {
               <h1 className="text-2xl font-bold text-[#1e3a8a]">Klick</h1>
               <p className="text-xs text-gray-500"></p>
             </div>
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
@@ -74,6 +74,7 @@ const Header = () => {
             </div>
           </div>
         )}
+
       </div>
     </header>
   )
