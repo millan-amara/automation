@@ -67,12 +67,14 @@ function Navigation() {
 
           </div>
 
-          <button 
-            onClick={() => scrollToSection('contact')}
-            className="md:hidden px-4 py-2 bg-purple-600 text-white text-sm font-medium rounded-lg hover:bg-purple-700 transition-colors"
-          >
-            Book Now
-          </button>
+            <a
+              href="https://wa.me/254742603407?text=Hi%20Klick%2C%20I%E2%80%99d%20like%20to%20explore%20a%20automation%20for%20my%20business."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="md:hidden px-5 py-2.5 bg-purple-600 text-white text-sm font-medium rounded-lg hover:bg-purple-700 transition-colors"
+            >
+              Chat on WhatsApp
+            </a>
         </div>
       </div>
     </nav>
